@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0-orange)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.109-green)
+![MLflow](https://img.shields.io/badge/MLflow-Tracking-blue)
+![Evidently](https://img.shields.io/badge/Evidently-Drift_Monitoring-purple)
+![Docker](https://img.shields.io/badge/Docker-Compose-blue)
 # 🚨 Real-Time Anomaly Detection with Drift Monitoring
 
 A production-grade anomaly detection system for credit card fraud, built with **Isolation Forest** + **PyTorch Autoencoder**, served via **FastAPI**, monitored with **Evidently AI**, tracked in **MLflow**, and visualized on a **Streamlit dashboard**.
