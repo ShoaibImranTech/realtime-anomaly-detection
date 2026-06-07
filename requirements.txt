@@ -1,0 +1,27 @@
+# Core ML
+scikit-learn
+torch
+numpy
+pandas
+scipy
+
+# API
+fastapi
+uvicorn
+pydantic
+
+# Monitoring
+evidently
+
+# Experiment Tracking
+mlflow
+
+# Dashboard
+streamlit
+plotly
+
+# Utilities
+joblib
+python-dotenv
+httpx
+requests

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Data
+data/creditcard.csv
+data/processed/
+
+# Models
+models/saved/
+
+# MLflow
+mlruns/
+mlflow_tracking/
+mlflow.db
+
+# Monitoring reports
+monitoring/reports/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+*.log
