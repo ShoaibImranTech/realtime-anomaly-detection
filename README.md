@@ -33,6 +33,28 @@ The full stack covers **data ingestion → model training → REST API serving �
 
 ---
 
+## 📸 Screenshots
+
+### 🚨 Real-Time Fraud Detection Dashboard
+![Dashboard](assets/dashboard.png)
+
+### 📦 Batch Prediction — 99 Anomalies Detected out of 100
+![Batch](assets/batch_prediction.png)
+
+### 🔌 FastAPI REST Endpoints
+![API](assets/api_docs.png)
+
+### 📈 MLflow — Model Comparison (Autoencoder vs Isolation Forest)
+![MLflow](assets/mlflow_runs.png)
+
+### 🤖 Autoencoder — Metrics & Parameters
+![Autoencoder](assets/autoencoder_metrics.png)
+
+### 🌲 Isolation Forest — Metrics & Parameters
+![IsolationForest](assets/isolation_forest_metrics.png)
+
+---
+
 ## 📊 Model Performance
 
 | Model | Precision | Recall | F1 Score | ROC-AUC | Avg Latency |
@@ -115,6 +137,8 @@ realtime-anomaly-detection/
 │
 ├── 📂 notebooks/
 │   └── exploration.ipynb       # EDA, ROC curves, reconstruction error analysis
+│
+├── 📂 assets/                  # Screenshots for README
 │
 ├── train.py                    # Master pipeline — trains both models, prints comparison
 ├── requirements.txt
